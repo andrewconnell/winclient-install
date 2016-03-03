@@ -1,0 +1,1 @@
+npm install -g azure-cli bower browserify express generator-generator generator-office growl grunt-cli gulp http-server istanbul jsdoc jspm karma-cli mocha node-inspector nodemon nodetree npm superstatic systemjs tsd tslint typescript typings webpack yo
