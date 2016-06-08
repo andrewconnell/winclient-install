@@ -30,12 +30,12 @@ Install BoxStarter via Chocolatey
 
 ## Manual Installs
 
--NVM
+- NVM
   - https://github.com/coreybutler/nvm-windows/releases
   - LTS
   - stable
   - run global NPM installs
--SQL Server 2014
+- SQL Server 2014
   - data tools, management tools complete, client libraries
 - Office Pro Plus
 - Visio 2016
@@ -47,6 +47,27 @@ Install BoxStarter via Chocolatey
   - https://www.microsoft.com/en-us/download/details.aspx?id=41950
 - SharePoint Online Management Shell
   - https://www.microsoft.com/en-us/download/details.aspx?id=35588
+- Visual Studio Extensions (some may be preinstalled)
+  - Azure AD Authentication Connected Service
+  - Azure Data Lake Tools for Visual Studio
+  - Bootstrap Snippet Pack
+  - Cloud Explorer for Visual Studio 2015
+  - Developer Analytics Tools v5.208.0
+  - Glyphfriend
+  - JustDecompilePackage
+  - Microsoft ASP.NET Web Frameworks and Tools
+  - Microsoft Azure App Service Tools
+  - Microsoft Azure HDInsight Tools for Visual Studio
+  - Microsoft Azure Mobile Service Connected Service
+  - Microsoft Azure Quickstarts
+  - Microsoft Azure Storage Connected Service
+  - Microsoft Connected Services
+  - Microsfot Office 365 API Tools
+  - Nuget Package Manager for Visual Studio 2015
+  - SQL Server Compact/SQLLite Toolbox
+  - TypeScript for Microsoft Visual Studio
+  - Visual Studio Extension for TextMate Grammars
+  - Workflow Manager Activities
 
 ## Configurations
 
