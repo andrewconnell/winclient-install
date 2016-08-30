@@ -91,5 +91,9 @@ Install BoxStarter via Chocolatey
   - add onenote
   - add fiddler
   - add vs2015
-- apply license
-  - sublime text
+- sublime text
+  - install package control
+  - add packages
+  - apply license
+- vscode
+  - install extensions
