@@ -1,0 +1,12 @@
+Install-ChocolateyVsixPackage "Bootstrap Snippet Pack" https://visualstudiogallery.msdn.microsoft.com/e82e7862-f731-4183-a27a-3a44b261bfe5/file/135904/13/BootstrapSnippets.vsix
+Install-ChocolateyVsixPackage "Cloud Explorer for Visual Studio 2015" https://visualstudiogallery.msdn.microsoft.com/84e83a7c-9606-4f9f-83dd-0f6182f13add/file/168537/12/CloudExplorer.vsix
+Install-ChocolateyVsixPackage "Glyphfriend" https://visualstudiogallery.msdn.microsoft.com/5fd24afb-b3b2-4cec-9b03-1cfcec6123aa/file/150806/15/Glyphfriend.vsix
+Install-ChocolateyVsixPackage "Microsoft Azure App Service Tools" https://visualstudiogallery.msdn.microsoft.com/754d998c-8f92-4aa7-835b-e89c8c954aa5/file/168832/16/AzureDataFactoryVisualStudioTools.vsix
+Install-ChocolateyVsixPackage "SQL Server Compact/SQLLite Toolbox" https://visualstudiogallery.msdn.microsoft.com/0e313dfd-be80-4afb-b5e9-6e74d369f7a1/file/29445/85/SqlCeToolbox.4.5.0.3.vsix
+
+
+# already there
+# Install-ChocolateyVsixPackage "Microsoft ASP.NET Web Frameworks and Tools" https://visualstudiogallery.msdn.microsoft.com/2f8a7e60-2e6b-4220-b334-26d1e60ec54c/file/200337/1/AspNetWebFrameworksTools2015_KB3137909.exe
+# Install-ChocolateyVsixPackage "Visual Studio Spell Checker" https://visualstudiogallery.msdn.microsoft.com/a23de100-31a1-405c-b4b7-d6be40c3dfff/file/104494/14/VisualStudio.SpellChecker.vsix
+# Install-ChocolateyVsixPackage "Nuget Package Manager for Visual Studio 2015" https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d/file/146283/13/NuGet.Tools.vsix
+# Install-ChocolateyVsixPackage "Microsoft Azure Storage Connected Service" https://visualstudiogallery.msdn.microsoft.com/c5f89a45-6549-4081-96dc-a76a461560bc/file/169224/2/Microsoft.VisualStudio.ConnectedServices.Azure.orage.vsix
