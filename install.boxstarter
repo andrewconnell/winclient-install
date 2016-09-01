@@ -16,50 +16,21 @@ cinst googlechrome.Canary -y
 cinst skype -y
 cinst slack -y
 cinst sublimetext3 -y
-cinst office365proplus -y
-
-# dev apps
-cinst fiddler -y
-#cinst nuget.commandline
-cinst smartgit-with-jre -y
-cinst snagit -y
-cinst VisualStudio2015Enterprise -y -packageParameters "--Features OfficeDeveloperToolsV1,GitForWindowsV2,GitHubVSV1"
-cinst visualstudiocode -y
 
 # Web Platform Installer
 cinst webpi -y
 cinst webpicmd -y
+
+# dev apps
+cinst nuget.commandline -y
+cinst fiddler -y
+cinst snagit -y
+cinst visualstudiocode -y
+
 # WebMatrix
 webpicmd /Install /Products:WebMatrixWeb /AcceptEula
-# Microsoft Azure SDK 2.8.2
-webpicmd /Install /Products:VWDOrVs2015AzurePack.2.8 /AcceptEula
-# Microsoft Azure CLI
-webpicmd /Install /Products:WindowsAzureXPlatCLI /AcceptEula
-# Microsoft Office 365 API Tools
-webpicmd /Install /Products:OfficeToolsForVS2015 /AcceptEula
-
-# import chocolatey module
-Import-Module $env:ChocolateyInstall\helpers\chocolateyInstaller.psm1
-
-# VS extensions
-Install-ChocolateyVsixPackage "File Nesting" https://visualstudiogallery.msdn.microsoft.com/3ebde8fb-26d8-4374-a0eb-1e4e2665070c/file/123284/24/File%20Nesting%20v2.2.37.vsix
-Install-ChocolateyVsixPackage "Productivity Power Tools 2015" https://visualstudiogallery.msdn.microsoft.com/34ebc6a2-2777-421d-8914-e29c1dfa7f5d/file/169971/1/ProPowerTools.vsix
-Install-ChocolateyVsixPackage "Microsoft ASP.NET and Web Tools" https://visualstudiogallery.msdn.microsoft.com/c94a02e9-f2e9-4bad-a952-a63a967e3935/file/77371/10/DotNetCore.1.0.0-VS2015Tools.Preview2.0.1.exe
-Install-ChocolateyVsixPackage "Microsoft Azure DataFactory Tools for Visual Studio 2015" https://visualstudiogallery.msdn.microsoft.com/371a4cf9-0093-40fa-b7dd-be3c74f49005/file/182173/4/AzureDataFactoryVisualStudioTools-VS2015.vsix
-Install-ChocolateyVsixPackage "NPM Scripts Task Runner" https://visualstudiogallery.msdn.microsoft.com/8f2f2cbc-4da5-43ba-9de2-c9d08ade4941/file/168331/22/NPM%20Task%20Runner%20v1.3.69.vsix
-Install-ChocolateyVsixPackage "Visual Studio Spell Checker" https://visualstudiogallery.msdn.microsoft.com/a23de100-31a1-405c-b4b7-d6be40c3dfff/file/104494/10/VisualStudio.SpellChecker.vsix
-Install-ChocolateyVsixPackage "VSCommands 14 for Visual Studio 2015" https://visualstudiogallery.msdn.microsoft.com/c84be782-b1f1-4f6b-85bb-945ebc852aa1/file/189507/2/SquaredInfinity.VSCommands.VscPackage.vsix.vs14.vsix
-Install-ChocolateyVsixPackage "Web Analyzer" https://visualstudiogallery.msdn.microsoft.com/6edc26d4-47d8-4987-82ee-7c820d79be1d/file/181923/23/Web%20Analyzer%20v1.7.75.vsix
-Install-ChocolateyVsixPackage "Web Essentials 2015.1" https://visualstudiogallery.msdn.microsoft.com/ee6e6d8c-c837-41fb-886a-6b50ae2d06a2/file/146119/38/Web%20Essentials%202015.1%20v1.0.209.vsix
 
 # config prefs
-# Install-ChocolateyPinnedTaskBarItem "$env:programfiles\console\console.exe"
-# Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe"
-# Install-ChocolateyPinnedTaskBarItem "$env:programfiles\Sublime Text 3\sublime_text.exe"
-# Install-ChocolateyFileAssociation ".txt" "$env:programfiles\Sublime Text 3\sublime_text.exe"
-
-# change paths for OneDrive
-# Move-LibraryDirectory "Personal" "c:\somehwre"
 
 # machine config
 cinst IIS-WebServerRole -source windowsfeatures -y
