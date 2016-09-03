@@ -33,37 +33,6 @@ Install BoxStarter via Chocolatey
   cinst BoxStarter -y
   ```
 
-## Trigger Boxstarter Install
-
-- Launch Boxstarter Shell
-- To address https://github.com/mwrock/boxstarter/issues/198, do this:
-
-  ```PowerShell
-  choco upgrade chocolatey --version 0.9.10.3 --allow-downgrade
-  ```
-
-  - Close Boxstarter Shell
-  - Launch Boxstarter Shell
-
-    ```PowerShell
-    choco feature enable -n allowEmptyChecksums
-    ```
-
-  - Close Boxstarter Shell
-- Launch Boxstarter Shell
-- Execute following:
-
-  ```PowerShell
-  Install-BoxstarterPackage -PackageName [raw URL in GH to the install.boxstarter script]
-  ```
-
-- Reboot
-- Update Visual Studio:
-
-  ```PowerShell
-  Install-BoxstarterPackage -PackageName [raw URL in GH to the vsupdate.boxstarter script]
-  ```
-
 ## Fix Boxstarter Chocolatey Dependency
 
 - Launch Boxstarter Shell
@@ -113,6 +82,7 @@ Install BoxStarter via Chocolatey
   - run global NPM installs
 - Office 2016 Pro Plus
   - login and install from O365
+  - *needed to get the install tied to my O365 license grants*
 - Printer drivers
 - SmartGit
 - SmartSynchronize
