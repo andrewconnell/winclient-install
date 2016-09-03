@@ -9,6 +9,7 @@ Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -Ena
 
 # core apps
 cinst crashplan -y
+cinst bonjour -y
 cinst dropbox -y
 cinst firefox -y
 cinst googlechrome -y
